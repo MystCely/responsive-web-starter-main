@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Web Developer Starter - devchallenges.io</title>
+
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any" />
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<div class="brand">
+				<a href="" aria-label="Home">
+					<img src="resources/logo-light.svg" class="logo-light" alt="Alarado logo light" />
+					<img src="resources/logo-dark.svg" class="logo-dark" alt="Alarado logo dark" />
+				</a>
+			</div>
+			<button
+				type="button"
+				class="menu-button"
+				id="menu-toggle"
+				aria-label="Open navigation menu"
+				aria-expanded="false"
+				aria-controls="mobile-menu"
+			>
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<div class="nav-panel" id="mobile-menu">
+				<nav class="navbar">
+					<ul>
+						<li><a href="#" aria-current="page">About us</a></li>
+						<li><a href="#">Product</a></li>
+						<li><a href="#">Resource</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<input type="checkbox" id="dark-mode-toggle" />
+				<label for="dark-mode-toggle" class="toggle">
+					<span class="toggle-knob">
+						<img src="resources/Moon_fill.svg" class="icon moon" alt="Dark mode" />
+						<img src="resources/Sun_fill.svg" class="icon sun" alt="Light mode" />
+					</span>
+				</label>
+			</div>
+		</header>
+
+			<main>
+				<section class="hero">
+					<div class="hero-text">
+						<p>😎 Simple way to communicate</p>
+						<h1>Actions for Accessibility in Design</h1>
+						<p>The fastest way to build and deploy websites with reusable components.</p>
+					</div>
+					<div class="btn-container">
+						<button>Get Started</button>
+						<p><a href="#">Get live demo</a></p>
+					</div>
+					<div class="info">
+						<div class="info-item">
+							<img src="resources/Done_ring_round_fill.svg" alt="Green check image" />
+							<p>No credit card required</p>
+						</div>
+						<div class="info-item">
+							<img src="resources/Done_ring_round_fill.svg" alt="Green check image" />
+							<p>No software to install</p>
+						</div>
+					</div>
+				</section>
+
+				<img class="hero-img" src="resources/hero-image-simple-homepage.png" alt="Hero image" />
+			</main>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
